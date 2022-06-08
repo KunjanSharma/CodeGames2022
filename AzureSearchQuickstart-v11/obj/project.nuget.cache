@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "4Tjjq91AFM8IBg1AxJS4Npb8Th0VU0Ehis0ihJclRzPtkE0IuVG3nUNDWsR3g8hnkBUnsqozIY+mnt/V828Rog==",
+  "success": true,
+  "projectFilePath": "C:\\R&D\\CodeGames2022\\AzureSearchQuickstart-v11\\AzureSearchQuickstart-v11.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\azure.core\\1.4.1\\azure.core.1.4.1.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\azure.search.documents\\11.1.1\\azure.search.documents.11.1.1.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.0.0\\microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\Kunjan.Sharma\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

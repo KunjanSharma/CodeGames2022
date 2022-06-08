@@ -1,0 +1,35 @@
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.exe
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.deps.json
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.json
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.dev.json
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Search.Documents.dll
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfoInputs.cache
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfo.cs
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CoreCompileInputs.cache
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CopyComplete
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\CodeGames\azure-search-dotnet-samples-master\azure-search-dotnet-samples-master\quickstart\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.genruntimeconfig.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.exe
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.deps.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.dev.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Search.Documents.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.AssemblyReference.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfoInputs.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfo.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CoreCompileInputs.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CopyComplete
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.genruntimeconfig.cache
