@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FirstAzureSearchApp": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "nativeDebugging": true,
+      "applicationUrl": "http://localhost:61371;http://localhost:61372"
+    }
+  }
+}
