@@ -1,0 +1,64 @@
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.deps.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.runtimeconfig.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.runtimeconfig.dev.json
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.AssemblyInfoInputs.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.AssemblyInfo.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.CoreCompileInputs.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorAssemblyInfo.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorAssemblyInfo.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.TagHelpers.input.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.TagHelpers.output.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorCoreGenerate.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorTargetAssemblyInfo.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorTargetAssemblyInfo.cs
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.dll
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.pdb
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.genruntimeconfig.cache
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.CopyComplete
+C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\azure-search-dotnet-samples-master\create-first-app\v10\1-basic-search-page\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.AssemblyReference.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\appsettings.json
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.deps.json
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.runtimeconfig.json
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.runtimeconfig.dev.json
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.dll
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.pdb
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.dll
+C:\R&D\CodeGames2022\FirstAzureSearchApp\bin\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.pdb
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.AssemblyReference.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.AssemblyInfoInputs.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.AssemblyInfo.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.CoreCompileInputs.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorAssemblyInfo.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorAssemblyInfo.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.TagHelpers.input.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.TagHelpers.output.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorCoreGenerate.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorTargetAssemblyInfo.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.RazorTargetAssemblyInfo.cs
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.Views.pdb
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.dll
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.pdb
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.genruntimeconfig.cache
+C:\R&D\CodeGames2022\FirstAzureSearchApp\obj\Debug\netcoreapp2.1\FirstAzureSearchApp.csproj.CopyComplete
