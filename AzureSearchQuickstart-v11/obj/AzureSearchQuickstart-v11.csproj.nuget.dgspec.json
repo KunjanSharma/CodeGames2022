@@ -43,6 +43,10 @@
             "Azure.Search.Documents": {
               "target": "Package",
               "version": "[11.1.1, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.5.6, )"
             }
           },
           "imports": [

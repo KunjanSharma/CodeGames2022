@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Text;
 using Azure;
 using Azure.Search.Documents;
 using Azure.Search.Documents.Indexes;
 using Azure.Search.Documents.Indexes.Models;
 using Azure.Search.Documents.Models;
+using NPOI.SS.Formula.Functions;
 
 namespace AzureSearch.Quickstart
 
@@ -12,9 +14,18 @@ namespace AzureSearch.Quickstart
     {
         static void Main(string[] args)
         {
-            string serviceName = "codegames2022";
-            string apiKey = "nMOSWY0c29Yp9jp8jxlD12028SPbBIC1eXnn3snf5KAzSeD3P5gj";
+            //string serviceName = "codegames2022";
+            //string apiKey = "nMOSWY0c29Yp9jp8jxlD12028SPbBIC1eXnn3snf5KAzSeD3P5gj";
+            //string indexName = "client-search";
+
+
+
+            string serviceName = "clientsearch2022";
+            string apiKey = "M6JeWipWcCwld3WtW0UPbhP7FekIP5XJ1HeGT4oBh8AzSeCvZIw9";
             string indexName = "client-search";
+
+
+
 
             // Create a SearchIndexClient to send create/delete index commands
             Uri serviceEndpoint = new Uri($"https://{serviceName}.search.windows.net/");
@@ -25,18 +36,21 @@ namespace AzureSearch.Quickstart
             SearchClient srchclient = new SearchClient(serviceEndpoint, indexName, credential);
 
             //// Delete index if it exists
-            //Console.WriteLine("{0}", "Deleting index...\n");
-            //DeleteIndexIfExists(indexName, adminClient);
+            Console.WriteLine("{0}", "Deleting index...\n");
+            DeleteIndexIfExists(indexName, adminClient);
 
             //// Create index
-            //Console.WriteLine("{0}", "Creating index...\n");
-            //CreateIndex(indexName, adminClient);
+            Console.WriteLine("{0}", "Creating index...\n");
+            CreateIndex(indexName, adminClient);
 
             SearchClient ingesterClient = adminClient.GetSearchClient(indexName);
 
             // Load documents
+            for (int i = 0; i < 20; i++) { 
+            
             Console.WriteLine("{0}", "Uploading documents...\n");
-            UploadDocuments(ingesterClient);
+            UploadDocuments(ingesterClient,i);
+            }
 
             // Wait 2 secondsfor indexing to complete before starting queries (for demo and console-app purposes only)
             Console.WriteLine("Waiting for indexing...\n");
@@ -67,17 +81,21 @@ namespace AzureSearch.Quickstart
 
             var definition = new SearchIndex(indexName, searchFields);
 
-            var suggester = new SearchSuggester("sg", new[] { "ClientID", "Office", "BuisnessUnit", "Region" });
+            var suggester = new SearchSuggester("sg", new[] { "ClientID", "Office", "BuisnessUnit", "Region", "ContactNo", "ClientSortName" });
             definition.Suggesters.Add(suggester);
 
             adminClient.CreateOrUpdateIndex(definition);
         }
 
         // Upload documents in a single Upload request.
-        private static void UploadDocuments(SearchClient searchClient)
+        private static void UploadDocuments(SearchClient searchClient,int j)
         {
             IndexDocumentsBatch<Client> batch = new IndexDocumentsBatch<Client>();
-            for (int i = 0; i < 10; i++)
+            int initialval=25000*j;
+            int finalVal = initialval + 25000;
+
+            Console.WriteLine("Start Batch with intial Value"+ initialval +" Batch #"+j+": Adding all clients, ...\n");
+            for (int i = initialval; i < finalVal; i++)
             {
                 string clientId = null;
                 string clientSubId = null;
@@ -86,10 +104,9 @@ namespace AzureSearch.Quickstart
                 string clientOffice = null;
                 string clientBuisnessUnit = null;
                 string clientRegion = null;
-
-                if (i <= 10)
+                if (i <= 100000)
                 {
-                    clientId = "CLAAsia" + i;
+                    clientId = "CLAAsia_" + i;
                     clientSubId = "CLASubId" + i;
                     clientSortName = "CLASortName" + i;
                     clientType = "Corporation";
@@ -97,49 +114,48 @@ namespace AzureSearch.Quickstart
                     clientBuisnessUnit = "ATT";
                     clientRegion = "Japan";
                 }
+                else if (i > 100000 &&  i <= 200000)
+                {
+                    clientId = "CLAWestUS_" + i;
+                    clientSubId = "CLASubId" + i;
+                    clientSortName = "CLASortName" + i;
+                    clientType = "Corporation";
+                    clientOffice = "Torrance";
+                    clientBuisnessUnit = "TAA";
+                    clientRegion = "WestUS";
+                }
+                else if (i > 200000 && i <= 300000)
+                {
+                    clientId = "CLAEastUS_" + i;
+                    clientSubId = "CLASubId" + i;
+                    clientSortName = "CLASortName" + i;
+                    clientType = "Indiviual";
+                    clientOffice = "New York";
+                    clientBuisnessUnit = "NYC";
+                    clientRegion = "EastUS";
+                }
+                else if (i > 300000 && i <= 400000)
+                {
 
-                //if (i <= 25000)
-                //{
-                //    clientId = "CLAWestUS" + i;
-                //    clientSubId = "CLASubId" + i;
-                //    clientSortName = "CLASortName" + i;
-                //    clientType = "Corporation";
-                //    clientOffice = "Torrance";
-                //    clientBuisnessUnit = "TAA";
-                //    clientRegion = "WestUS";
-                //}
-                //else if (i > 25000 && i <= 50000)
-                //{
-                //    clientId = "CLAEastUS" + i;
-                //    clientSubId = "CLASubId" + i;
-                //    clientSortName = "CLASortName" + i;
-                //    clientType = "Indiviual";
-                //    clientOffice = "New York";
-                //    clientBuisnessUnit = "NYC";
-                //    clientRegion = "EastUS";
-                //}
-                //else if (i > 50000 && i <= 75000)
-                //{
+                    clientId = "CLACentralUS_" + i;
+                    clientSubId = "CLASubId" + i;
+                    clientSortName = "CLASortName" + i;
+                    clientType = "Fiduciary";
+                    clientOffice = "Dallas";
+                    clientBuisnessUnit = "TX";
+                    clientRegion = "CentralUS";
+                }
+                else
+                {
+                    clientId = "CLAIndia_" + i;
+                    clientSubId = "CLASubId" + i;
+                    clientSortName = "CLASortName" + i;
+                    clientType = "Partnership";
+                    clientOffice = "Delhi";
+                    clientBuisnessUnit = "India";
+                    clientRegion = "India";
 
-                //    clientId = "CLACentralUS" + i;
-                //    clientSubId = "CLASubId" + i;
-                //    clientSortName = "CLASortName" + i;
-                //    clientType = "Fiduciary";
-                //    clientOffice = "Dallas";
-                //    clientBuisnessUnit = "TX";
-                //    clientRegion = "CentralUS";
-                //}
-                //else
-                //{
-                //    clientId = "CLAIndia" + i;
-                //    clientSubId = "CLASubId" + i;
-                //    clientSortName = "CLASortName" + i;
-                //    clientType = "Partnership";
-                //    clientOffice = "Delhi";
-                //    clientBuisnessUnit = "India";
-                //    clientRegion = "India";
-
-                //}
+                }
                 batch.Actions.Add(IndexDocumentsAction.Upload(
 
                     new Client()
@@ -151,8 +167,8 @@ namespace AzureSearch.Quickstart
                         Office = clientOffice,
                         BuisnessUnit = clientBuisnessUnit,
                         Region = clientRegion,
-                        SubDescription = ""
-
+                        SubDescription = "",
+                        ContactNo= GetRandomTelNo()
                     }));
             }
 
@@ -160,6 +176,8 @@ namespace AzureSearch.Quickstart
             try
             {
                 IndexDocumentsResult result = searchClient.IndexDocuments(batch);
+
+                Console.WriteLine("Finished Batch with intial Value" + initialval + " Batch #" + j + ": Done Adding all clients, ...\n");
             }
             catch (Exception ex)
             {
@@ -311,6 +329,24 @@ namespace AzureSearch.Quickstart
             }
 
             Console.WriteLine();
+        }
+        private static string GetRandomTelNo()
+        {
+            StringBuilder telNo = new StringBuilder(12);
+            int number;
+            Random rand = new Random();
+            for (int i = 0; i < 3; i++)
+            {
+                number = rand.Next(0, 8); // digit between 0 (incl) and 8 (excl)
+                telNo = telNo.Append(number.ToString());
+            }
+            telNo = telNo.Append("-");
+            number = rand.Next(0, 743); // number between 0 (incl) and 743 (excl)
+            telNo = telNo.Append(String.Format("{0:D3}", number));
+            telNo = telNo.Append("-");
+            number = rand.Next(0, 10000); // number between 0 (incl) and 10000 (excl)
+            telNo = telNo.Append(String.Format("{0:D4}", number));
+            return telNo.ToString();
         }
     }
 }

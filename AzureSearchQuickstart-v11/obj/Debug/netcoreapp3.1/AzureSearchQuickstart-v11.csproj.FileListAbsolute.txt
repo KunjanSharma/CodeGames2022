@@ -33,3 +33,36 @@ C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuicks
 C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
 C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
 C:\Users\Kunjan.Sharma\OneDrive - Wolters Kluwer\Downloads\v11\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.genruntimeconfig.cache
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.exe
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.deps.json
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.json
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.runtimeconfig.dev.json
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Core.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Azure.Search.Documents.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.AssemblyReference.cache
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.GeneratedMSBuildEditorConfig.editorconfig
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfoInputs.cache
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.AssemblyInfo.cs
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CoreCompileInputs.cache
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.csproj.CopyComplete
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.pdb
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\obj\Debug\netcoreapp3.1\AzureSearchQuickstart-v11.genruntimeconfig.cache
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\NPOI.OOXML.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\NPOI.OpenXml4Net.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\NPOI.OpenXmlFormats.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\NPOI.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\ICSharpCode.SharpZipLib.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\Microsoft.Win32.SystemEvents.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Drawing.Common.dll
+C:\R&D\CodeGames2022\AzureSearchQuickstart-v11\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

@@ -30,6 +30,9 @@ namespace AzureSearch.Quickstart
 
         [SearchableField(IsFilterable = true, IsSortable = true, IsFacetable = true)]
         public string ClientType { get; set; }
-     
+
+        [SearchableField(IsFilterable = true, IsFacetable = true)]
+        public string ContactNo { get; set; }
+
     }
 }

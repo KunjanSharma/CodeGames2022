@@ -1,0 +1,243 @@
+﻿@model FirstAzureSearchApp.Models.SearchData
+@{
+    ViewData["Title"] = "Home Page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/hotels.css" />
+
+    <link href="https://code.jquery.com/ui/1.12.1/themes/start/jquery-ui.css"
+          rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+<body>
+    <h1 class="sampleTitle">
+        <img src="~/images/azure-logo.png" width="80" />
+        Client Search
+    </h1>
+
+    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+    {
+        <div id="underneath" class="searchBox" style="position: relative; left: 0; top: 0">
+        </div>
+        // Display the search text box, with the search icon to the right of it.
+        <div class="searchBoxForm">
+            @Html.TextBoxFor(m => m.searchText, new { @class = "searchBox", @id = "azureautocomplete" }) <input class="searchBoxSubmit" type="submit" value="">
+        </div>
+        <script>
+            $("#azureautosuggest").autocomplete({
+                source: "/Home/Suggest?highlights=false&fuzzy=false",
+                minLength: 2,
+                position: {
+                    my: "left top",
+                    at: "left-23 bottom+10"
+                }
+            });
+        </script>
+
+        <script>
+            var updateTextbox = function(event, ui) {
+                var result = ui.item.value.replace(/<\/?[^>]+(>|$)/g, "");
+                $("#azuresuggesthighlights").val(result);
+                return false;
+            };
+
+            $("#azuresuggesthighlights").autocomplete({
+                html: true,
+                source: "/home/suggest?highlights=true&fuzzy=false&",
+                minLength: 2,
+                position: {
+                    my: "left top",
+                    at: "left-23 bottom+10"
+                },
+                select: updateTextbox,
+                focus: updateTextbox
+            }).data("ui-autocomplete")._renderItem = function(ul, item) {
+                return $("<li></li>")
+                    .data("item.autocomplete", item)
+                    .append("<a>" + item.label + "</a>")
+                    .appendTo(ul);
+            };
+        </script>
+
+        <script>
+            $("#azureautocompletebasic").autocomplete({
+                source: "/Home/Autocomplete",
+                minLength: 2,
+                position: {
+                    my: "left top",
+                    at: "left-23 bottom+10"
+                }
+            });
+        </script>
+
+        <script>
+            $('#azureautocomplete').autocomplete({
+                delay: 500,
+                minLength: 2,
+                position: {
+                    my: "left top",
+                    at: "left-23 bottom+10"
+                },
+
+                // Use Ajax to set up a "success" function.
+                source: function(request, response) {
+                    var controllerUrl = "/Suggestion/Index?term=" + $("#azureautocomplete").val();
+                    $.ajax({
+                        url: controllerUrl,
+                        dataType: "json",
+                        success: function(data) {
+                            if (data && data.length > 0) {
+
+                                // Show the autocomplete suggestion.
+                                document.getElementById("underneath").innerHTML = data[0];
+
+                                // Remove the top suggestion as it is used for inline autocomplete.
+                                var array = new Array();
+                                for (var n = 1; n < data.length; n++) {
+                                    array[n - 1] = data[n];
+                                }
+
+                                // Show the drop-down list of suggestions.
+                                response(array);
+                            } else {
+
+                                // Nothing is returned, so clear the autocomplete suggestion.
+                                document.getElementById("underneath").innerHTML = "";
+                            }
+                        }
+                    });
+                }
+            });
+
+            // Complete on TAB.
+            // Clear on ESC.
+            // Clear if backspace to less than 2 characters.
+            // Clear if any arrow key hit as user is navigating the suggestions.
+            $("#azureautocomplete").keydown(function(evt) {
+
+                var suggestedText = document.getElementById("underneath").innerHTML;
+                if (evt.keyCode === 9 /* TAB */ && suggestedText.length > 0) {
+                    $("#azureautocomplete").val(suggestedText);
+                    return false;
+                } else if (evt.keyCode === 27 /* ESC */) {
+                    document.getElementById("underneath").innerHTML = "";
+                    $("#azureautocomplete").val("");
+                } else if (evt.keyCode === 8 /* Backspace */) {
+                    if ($("#azureautocomplete").val().length < 2) {
+                        document.getElementById("underneath").innerHTML = "";
+                    }
+                } else if (evt.keyCode >= 37 && evt.keyCode <= 40 /* Any arrow key */) {
+                    document.getElementById("underneath").innerHTML = "";
+                }
+            });
+
+            // Character replace function.
+            function setCharAt(str, index, chr) {
+                if (index > str.length - 1) return str;
+                return str.substr(0, index) + chr + str.substr(index + 1);
+            }
+
+            // This function is needed to clear the "underneath" text when the user clicks on a suggestion, and to
+            // correct the case of the autocomplete option when it does not match the case of the user input.
+            // The interval function is activated with the input, blur, change, or focus events.
+            $("#azureautocomplete").on("input blur change focus", function(e) {
+
+                // Set a 2 second interval duration.
+                var intervalDuration = 2000,
+                    interval = setInterval(function() {
+
+                        // Compare the autocorrect suggestion with the actual typed string.
+                        var inputText = document.getElementById("azureautocomplete").value;
+                        var autoText = document.getElementById("underneath").innerHTML;
+
+                        // If the typed string is longer than the suggestion, then clear the suggestion.
+                        if (inputText.length > autoText.length) {
+                            document.getElementById("underneath").innerHTML = "";
+                        } else {
+
+                            // If the strings match, change the case of the suggestion to match the case of the typed input.
+                            if (autoText.toLowerCase().startsWith(inputText.toLowerCase())) {
+                                for (var n = 0; n < inputText.length; n++) {
+                                    autoText = setCharAt(autoText, n, inputText[n]);
+                                }
+                                document.getElementById("underneath").innerHTML = autoText;
+
+                            } else {
+                                // The strings do not match, so clear the suggestion.
+                                document.getElementById("underneath").innerHTML = "";
+                            }
+                        }
+
+                        // If the element loses focus, stop the interval checking.
+                        //if (!$input.is(':focus')) clearInterval(interval);
+
+                    }, intervalDuration);
+            });
+        </script>
+        <table class="table table-dark">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">ClientID</th>
+                    <th scope="col">ClientSubID</th>
+                    <th scope="col">ClientSortName</th>
+                    <th scope="col">Office</th>
+                    <th scope="col">BuisnessUnit</th>
+                    <th scope="col">Region</th>
+                    <th scope="col">ContactNo</th>
+                </tr>
+            </thead>
+            <tbody>
+            @if (Model != null)
+            {
+                // Show the result count.
+                <p class="sampleText">
+                    Total Results @Html.DisplayFor(m => m.totalCount) 
+                </p>
+
+                @for (var i = 0; i < Model.resultList.Count; i++)
+                {
+
+                    //@Html.TextAreaFor(m => Model.resultList.Results[i].Document.ClientID, new { @class = "box1" })
+                    //@Html.TextArea($"desc{i}", Model.resultList.Results[i].Document.ClientSortName, new { @class = "box2" })
+                    //model.resultList.Values[0].Document
+                    // Display the hotel name and description.
+
+                    @* @Html.LabelFor(m => Model.resultList[i].ClientID, new { @class = "box1" })
+
+        @Html.TextAreaFor(m => Model.resultList[i].ClientID, new { @class = "box1" })
+        @Html.TextArea($"desc{i}", Model.resultList[i].ClientSortName, new { @class = "box2" })*@
+
+
+
+                   @* <article>
+                        <h2>@Model.resultList[i].ClientID</h2>
+                        <p>ClientSubID    : @Model.resultList[i].ClientSubID</p>
+                        <p>ClientSortName : @Model.resultList[i].ClientSortName</p>
+                        <p>Office         : @Model.resultList[i].Office</p>
+                        <p>BuisnessUnit   : @Model.resultList[i].BuisnessUnit</p>
+                        <p>Region         : @Model.resultList[i].Region</p>
+                    </article>*@
+
+
+                    
+                        <tr>
+                            <th scope="row">@(i+1)</th>
+                            <td>@Model.resultList[i].ClientID</td>
+                            <td>@Model.resultList[i].ClientSubID</td>
+                            <td>@Model.resultList[i].ClientSortName</td>
+                            <td>@Model.resultList[i].Office</td>
+                            <td>@Model.resultList[i].BuisnessUnit</td>
+                            <td>@Model.resultList[i].Region</td>
+                            <td>@Model.resultList[i].ContactNo</td>
+                        </tr>
+                   
+
+
+                }
+            } 
+            </tbody>
+        </table>
+    }
+</body>
