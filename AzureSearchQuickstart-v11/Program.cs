@@ -36,12 +36,12 @@ namespace AzureSearch.Quickstart
             SearchClient srchclient = new SearchClient(serviceEndpoint, indexName, credential);
 
             //// Delete index if it exists
-            Console.WriteLine("{0}", "Deleting index...\n");
-            DeleteIndexIfExists(indexName, adminClient);
+            //Console.WriteLine("{0}", "Deleting index...\n");
+            //DeleteIndexIfExists(indexName, adminClient);
 
             //// Create index
-            Console.WriteLine("{0}", "Creating index...\n");
-            CreateIndex(indexName, adminClient);
+            //Console.WriteLine("{0}", "Creating index...\n");
+            //CreateIndex(indexName, adminClient);
 
             SearchClient ingesterClient = adminClient.GetSearchClient(indexName);
 
@@ -107,18 +107,18 @@ namespace AzureSearch.Quickstart
                 if (i <= 100000)
                 {
                     clientId = "CLAAsia_" + i;
-                    clientSubId = "CLASubId" + i;
-                    clientSortName = "CLASortName" + i;
+                    clientSubId = "SubId" + i;
+                    clientSortName = "SortName" + i;
                     clientType = "Corporation";
-                    clientOffice = "China";
+                    clientOffice = "Tokyo";
                     clientBuisnessUnit = "ATT";
                     clientRegion = "Japan";
                 }
                 else if (i > 100000 &&  i <= 200000)
                 {
                     clientId = "CLAWestUS_" + i;
-                    clientSubId = "CLASubId" + i;
-                    clientSortName = "CLASortName" + i;
+                    clientSubId = "SubId" + i;
+                    clientSortName = "SortName" + i;
                     clientType = "Corporation";
                     clientOffice = "Torrance";
                     clientBuisnessUnit = "TAA";
@@ -127,8 +127,8 @@ namespace AzureSearch.Quickstart
                 else if (i > 200000 && i <= 300000)
                 {
                     clientId = "CLAEastUS_" + i;
-                    clientSubId = "CLASubId" + i;
-                    clientSortName = "CLASortName" + i;
+                    clientSubId = "SubId" + i;
+                    clientSortName = "SortName" + i;
                     clientType = "Indiviual";
                     clientOffice = "New York";
                     clientBuisnessUnit = "NYC";
@@ -138,8 +138,8 @@ namespace AzureSearch.Quickstart
                 {
 
                     clientId = "CLACentralUS_" + i;
-                    clientSubId = "CLASubId" + i;
-                    clientSortName = "CLASortName" + i;
+                    clientSubId = "SubId" + i;
+                    clientSortName = "SortName" + i;
                     clientType = "Fiduciary";
                     clientOffice = "Dallas";
                     clientBuisnessUnit = "TX";
@@ -148,8 +148,8 @@ namespace AzureSearch.Quickstart
                 else
                 {
                     clientId = "CLAIndia_" + i;
-                    clientSubId = "CLASubId" + i;
-                    clientSortName = "CLASortName" + i;
+                    clientSubId = "SubId" + i;
+                    clientSortName = "SortName" + i;
                     clientType = "Partnership";
                     clientOffice = "Delhi";
                     clientBuisnessUnit = "India";

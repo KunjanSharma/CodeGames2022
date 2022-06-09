@@ -151,7 +151,7 @@ namespace FirstAzureSearchApp.Controllers
                 model.resultList.Add(result.Document);
             }
 
-            model.totalCount=response.TotalCount.Value.ToString();
+            model.totalCount= model.resultList.Count;
             // Display the results.
             return View("Index", model);
         }

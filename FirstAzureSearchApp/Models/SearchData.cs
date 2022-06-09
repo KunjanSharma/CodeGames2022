@@ -9,7 +9,7 @@ namespace FirstAzureSearchApp.Models
         // The text to search for.
         public string searchText { get; set; }
 
-        public string totalCount { get; set; }
+        public int totalCount { get; set; }
         // The list of results.
         public List<Client> resultList;
 
